@@ -1,0 +1,17 @@
+Starts benchmark runs on the BCR model.
+  Activating project at `~/Projects2/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for BCR using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	2781m27.281s
+user	2777m58.318s
+sys	0m18.441s

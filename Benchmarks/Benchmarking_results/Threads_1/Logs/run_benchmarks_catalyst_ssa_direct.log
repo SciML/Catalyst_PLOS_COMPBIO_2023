@@ -1,0 +1,69 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Direct     -----
+-----     Benchmark finished.     -----
+
+real	4m8.729s
+user	4m1.881s
+sys	0m12.989s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Direct     -----
+-----     Benchmark finished.     -----
+
+real	294m14.561s
+user	294m6.742s
+sys	0m11.391s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Direct     -----
+-----     Benchmark finished.     -----
+
+real	69m6.903s
+user	68m53.572s
+sys	0m12.015s
+Starts benchmark runs on the BCR model.
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Direct     -----
+-----     Benchmark finished.     -----
+
+real	22m0.906s
+user	21m44.719s
+sys	0m12.758s

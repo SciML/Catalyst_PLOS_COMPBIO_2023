@@ -1,0 +1,16 @@
+Starts benchmark runs on the BCR model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	18m56.015s
+user	19m3.294s
+sys	0m3.550s

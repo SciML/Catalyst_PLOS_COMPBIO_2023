@@ -1,0 +1,1 @@
+{"lengs":[149.9684835502374],"benchmarks":[["Trial",{"allocs":1046021,"gctimes":[2.733516821e9],"memory":15016096688,"params":["Parameters",{"gctrial":true,"time_tolerance":0.05,"samples":10000,"evals":1,"gcsample":false,"seconds":5.0,"overhead":0.0,"memory_tolerance":0.01}],"times":[8.4679037906e10]}]],"medians":[84679.037906]}

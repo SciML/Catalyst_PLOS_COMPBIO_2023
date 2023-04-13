@@ -1,0 +1,6 @@
+Starts benchmark runs on the BCR model.
+Threads in use: 1
+
+real	547m29.078s
+user	547m8.043s
+sys	0m9.012s

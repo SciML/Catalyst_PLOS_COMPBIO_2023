@@ -1,0 +1,42 @@
+  Activating project at `~/Projects/Benchmarks/Catalyst`
+ERROR: LoadError: SystemError: opening file "../Data/BCR_SSA_u0.json": No such file or directory
+Stacktrace:
+  [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+    @ Base ./error.jl:176
+  [2] #systemerror#80
+    @ ./error.jl:175 [inlined]
+  [3] systemerror
+    @ ./error.jl:175 [inlined]
+  [4] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Nothing, append::Nothing)
+    @ Base ./iostream.jl:293
+  [5] open
+    @ ./iostream.jl:275 [inlined]
+  [6] open(f::JSON.Parser.var"#4#5"{DataType, DataType, Nothing, Bool, Bool, Int64}, args::String; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./io.jl:382
+  [7] open
+    @ ./io.jl:381 [inlined]
+  [8] #parsefile#3
+    @ ~/.julia/packages/JSON/NeJ9k/src/Parser.jl:509 [inlined]
+  [9] parsefile(filename::String)
+    @ JSON.Parser ~/.julia/packages/JSON/NeJ9k/src/Parser.jl:502
+ [10] top-level scope
+    @ ~/Projects/Benchmarks/Catalyst/catalyst_benchmark_protptyping_partial.jl:100
+in expression starting at /home/gridsan/tloman/Projects/Benchmarks/Catalyst/catalyst_benchmark_protptyping_partial.jl:100
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+real	15m43.800s
+user	13m40.754s
+sys	1m2.547s

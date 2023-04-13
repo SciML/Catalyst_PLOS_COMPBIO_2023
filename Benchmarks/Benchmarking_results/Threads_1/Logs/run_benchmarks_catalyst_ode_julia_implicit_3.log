@@ -1,0 +1,61 @@
+Starts benchmark runs on the BCR model.
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m1.279s
+user	0m0.001s
+sys	0m0.055s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.015s
+user	0m0.007s
+sys	0m0.006s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.015s
+user	0m0.014s
+sys	0m0.000s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.015s
+user	0m0.007s
+sys	0m0.006s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.001s
+sys	0m0.011s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.012s
+user	0m0.006s
+sys	0m0.005s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.011s
+sys	0m0.000s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.001s
+sys	0m0.011s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.012s
+sys	0m0.000s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.001s
+sys	0m0.011s
+ERROR: julia: -t,--threads=<n> must be an integer >= 1
+
+real	0m0.013s
+user	0m0.001s
+sys	0m0.010s
