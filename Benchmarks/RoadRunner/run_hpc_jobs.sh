@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sbatch run_benchmarks_roadrunner_ode_steady_state_BCR.sh
+sbatch run_benchmarks_roadrunner_ode_steady_state.sh
+sbatch run_benchmarks_roadrunner_ode.sh
+sbatch run_benchmarks_roadrunner_roadrunner_BCR.sh
+sbatch run_benchmarks_roadrunner_ssa_BCR.sh
+sbatch run_benchmarks_roadrunner_ssa.sh
