@@ -316,7 +316,7 @@ save_fig(multistate_ssa_bms_plot, "ssa_bms"; path="Benchmark_results/Multistate/
 multisite2_full_transient_bms_plot = plot_full_transient_ode_bms("multisite2")
 multisite2_full_asymptotic_bms_plot = plot_full_aymptotic_ode_bms("multisite2")
 multisite2_selected_transient_bms_plot = plot_selected_transient_ode_bms("multisite2")
-multisite2_ssa_bms_plot = plot_asymptotic_benchmarks("multistate",methods_ssa)
+multisite2_ssa_bms_plot = plot_asymptotic_benchmarks("multisite2",methods_ssa)
 
 save_fig(multisite2_full_transient_bms_plot, "full_transient_bms"; path="Benchmark_results/Multisite2/")
 save_fig(multisite2_full_asymptotic_bms_plot, "full_asymptotic_bms"; path="Benchmark_results/Multisite2/")

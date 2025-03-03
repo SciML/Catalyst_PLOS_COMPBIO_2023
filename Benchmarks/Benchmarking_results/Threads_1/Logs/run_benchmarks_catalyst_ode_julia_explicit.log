@@ -1,5 +1,5 @@
 Starts benchmark runs on the multistate model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,10 +12,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Tsit5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	4m11.411s
-user	2m30.141s
-sys	0m39.625s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m11.885s
+user	2m47.238s
+sys	0m11.681s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -28,10 +28,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using BS5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m1.658s
-user	2m34.253s
-sys	0m37.066s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m51.289s
+user	2m50.130s
+sys	0m10.421s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -44,10 +44,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using VCABM with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m12.803s
-user	2m56.234s
-sys	0m25.447s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m3.816s
+user	3m1.736s
+sys	0m11.060s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -60,10 +60,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Vern6 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m1.396s
-user	2m31.011s
-sys	0m39.468s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m47.196s
+user	2m45.954s
+sys	0m10.532s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -76,10 +76,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Vern7 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	2m58.387s
-user	2m28.385s
-sys	0m39.060s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m48.024s
+user	2m46.649s
+sys	0m10.817s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -92,10 +92,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Vern8 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m15.679s
-user	2m45.322s
-sys	0m39.100s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m58.428s
+user	2m57.328s
+sys	0m11.071s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -108,10 +108,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Vern9 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m13.940s
-user	2m44.635s
-sys	0m37.388s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m51.857s
+user	2m49.920s
+sys	0m11.189s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -124,10 +124,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using ROCK2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	2m54.808s
-user	2m42.755s
-sys	0m21.110s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	2m49.837s
+user	2m48.688s
+sys	0m10.200s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -140,11 +140,11 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using ROCK4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	2m54.616s
-user	2m44.844s
-sys	0m18.842s
+real	2m52.444s
+user	2m45.885s
+sys	0m15.893s
 Starts benchmark runs on the multisite2 model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -157,10 +157,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Tsit5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	5m7.467s
-user	4m3.729s
-sys	1m13.075s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m46.186s
+user	3m45.273s
+sys	0m10.150s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -173,10 +173,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using BS5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	5m1.270s
-user	3m58.809s
-sys	1m11.576s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	4m3.091s
+user	4m1.644s
+sys	0m10.390s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -189,10 +189,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using VCABM with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	5m37.908s
-user	4m40.776s
-sys	1m6.050s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	4m23.938s
+user	4m22.501s
+sys	0m10.366s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -205,10 +205,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Vern6 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	4m47.627s
-user	3m48.469s
-sys	1m6.720s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m54.548s
+user	3m52.793s
+sys	0m10.958s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -221,10 +221,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Vern7 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	5m30.380s
-user	4m23.223s
-sys	1m15.972s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	4m5.571s
+user	4m4.573s
+sys	0m10.113s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -237,10 +237,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Vern8 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	5m50.757s
-user	4m41.520s
-sys	1m18.021s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	4m25.207s
+user	4m23.676s
+sys	0m10.686s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -253,10 +253,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Vern9 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	6m30.116s
-user	5m24.203s
-sys	1m12.727s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	4m44.331s
+user	4m43.343s
+sys	0m10.710s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -269,10 +269,10 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using ROCK2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m16.719s
-user	3m0.230s
-sys	0m24.651s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m11.941s
+user	3m10.981s
+sys	0m10.999s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -285,11 +285,11 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using ROCK4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m11.131s
-user	2m57.413s
-sys	0m23.322s
+real	3m7.545s
+user	2m56.055s
+sys	0m20.417s
 Starts benchmark runs on the egfr_net model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -302,10 +302,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Tsit5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m2.665s
-user	2m59.919s
-sys	0m11.668s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m1.165s
+user	2m58.873s
+sys	0m10.646s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -318,10 +318,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using BS5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m6.211s
-user	3m3.168s
-sys	0m12.249s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m9.833s
+user	3m5.600s
+sys	0m11.789s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -334,10 +334,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using VCABM with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m1.679s
-user	2m58.771s
-sys	0m11.684s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m9.854s
+user	3m5.143s
+sys	0m11.152s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -350,10 +350,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Vern6 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m4.249s
-user	3m1.434s
-sys	0m12.179s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m10.845s
+user	3m2.448s
+sys	0m11.396s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -366,10 +366,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Vern7 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m2.203s
-user	2m59.475s
-sys	0m11.350s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m8.391s
+user	3m0.588s
+sys	0m12.239s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -382,10 +382,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Vern8 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m12.652s
-user	3m9.932s
-sys	0m11.449s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m13.516s
+user	3m10.336s
+sys	0m11.907s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -398,10 +398,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Vern9 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m10.316s
-user	3m7.640s
-sys	0m12.378s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m7.890s
+user	3m5.949s
+sys	0m11.003s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -414,10 +414,10 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using ROCK2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m33.471s
-user	3m30.712s
-sys	0m11.642s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	3m37.540s
+user	3m34.909s
+sys	0m11.273s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -430,12 +430,12 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using ROCK4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	3m3.945s
-user	3m2.016s
-sys	0m11.495s
+real	3m4.127s
+user	2m58.500s
+sys	0m11.286s
 Starts benchmark runs on the BCR model.
 Starts benchmark runs on the fceri_gamma2 model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -448,10 +448,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Tsit5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	51m14.833s
-user	47m52.297s
-sys	3m28.409s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	49m17.722s
+user	48m54.347s
+sys	0m29.948s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -464,10 +464,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using BS5 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	59m45.401s
-user	56m10.768s
-sys	3m38.095s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	48m20.637s
+user	47m57.224s
+sys	0m30.487s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -480,10 +480,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using VCABM with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	55m14.859s
-user	51m10.566s
-sys	4m0.765s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	48m48.333s
+user	48m26.177s
+sys	0m30.909s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -496,10 +496,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Vern6 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	50m24.596s
-user	46m55.365s
-sys	3m37.859s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	45m23.318s
+user	44m58.368s
+sys	0m32.658s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -512,10 +512,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Vern7 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	60m9.255s
-user	56m26.481s
-sys	3m49.182s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	53m46.560s
+user	53m23.480s
+sys	0m29.702s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -528,10 +528,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Vern8 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	60m53.350s
-user	57m6.564s
-sys	3m48.292s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	55m27.246s
+user	55m5.626s
+sys	0m29.786s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -544,10 +544,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Vern9 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	100m15.041s
-user	95m56.993s
-sys	4m23.332s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	80m33.827s
+user	79m44.843s
+sys	0m31.545s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 ┌ Warning: Instability detected. Aborting
 └ @ SciMLBase ~/.julia/packages/SciMLBase/gTrkJ/src/integrator_interface.jl:536
 ┌ Warning: Instability detected. Aborting
@@ -568,10 +568,10 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using ROCK2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	33m44.465s
-user	33m1.172s
-sys	0m48.144s
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+real	33m59.632s
+user	33m8.966s
+sys	0m32.680s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -584,6 +584,6 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using ROCK4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	52m17.293s
-user	50m43.645s
-sys	1m41.337s
+real	49m39.185s
+user	49m13.759s
+sys	0m32.113s

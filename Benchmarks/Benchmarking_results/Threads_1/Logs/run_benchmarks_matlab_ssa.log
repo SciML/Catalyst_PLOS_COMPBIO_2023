@@ -11,9 +11,9 @@ For product information, visit www.mathworks.com.
  
 Threads in use: 1
 
-real	12m16.116s
-user	11m29.032s
-sys	0m47.542s
+real	9m37.062s
+user	9m4.252s
+sys	0m5.181s
 Starts benchmark runs on the multisite2 model.
 
                             < M A T L A B (R) >
@@ -26,26 +26,25 @@ To get started, type doc.
 For product information, visit www.mathworks.com.
  
 Threads in use: 1
-{Out of memory.
-Error in sbiosimulate (line 140)
-simResultsCell = SimBiology.internal.simulate(mobj, cs, variants, doses);
-Error in ssa_sim_model (line 6)
-    [t, x, names] = sbiosimulate(model);
-Error in matlab_make_multisite2_ssa_benchmarks>@()ssa_sim_model(model,lengs(i))
-(line 22)
-    f = @() ssa_sim_model(model,lengs(i));
-Error in timeit>numOutputs (line 241)
-      a = f(); %#ok<NASGU>
-Error in timeit (line 50)
-    num_outputs = min(numOutputs(f), 1);
-Error in matlab_make_multisite2_ssa_benchmarks (line 23)
-    benchmarks(i) = 1000*timeit(f);
-Error in run (line 91)
-evalin('caller', strcat(script, ';'));} 
 
-real	62m38.280s
-user	58m20.263s
-sys	4m19.166s
+real	121m19.748s
+user	121m13.464s
+sys	0m8.571s
 Starts benchmark runs on the egfr_net model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	14m49.134s
+user	14m47.508s
+sys	0m2.290s
 Starts benchmark runs on the BCR model.
 Starts benchmark runs on the fceri_gamma2 model.

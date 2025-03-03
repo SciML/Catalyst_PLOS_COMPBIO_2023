@@ -1,5 +1,440 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m47.420s
+user	1m7.658s
+sys	0m13.403s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m9.801s
+user	1m8.269s
+sys	0m10.520s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m14.313s
+user	1m11.390s
+sys	0m12.704s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas5P with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m9.748s
+user	1m8.620s
+sys	0m10.693s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas5P with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m9.784s
+user	1m8.246s
+sys	0m11.544s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rodas5P with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m13.094s
+user	1m10.683s
+sys	0m11.578s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m9.383s
+user	1m7.926s
+sys	0m11.227s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m11.730s
+user	1m10.288s
+sys	0m10.876s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using Rosenbrock23 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m15.808s
+user	1m12.783s
+sys	0m12.964s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m36.003s
+user	1m33.991s
+sys	0m11.052s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m13.258s
+user	1m10.846s
+sys	0m11.419s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m15.135s
+user	1m11.364s
+sys	0m12.716s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas5P with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m37.796s
+user	1m36.425s
+sys	0m10.926s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas5P with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m14.091s
+user	1m12.044s
+sys	0m11.695s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rodas5P with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m16.761s
+user	1m13.832s
+sys	0m12.621s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m36.783s
+user	1m35.655s
+sys	0m10.794s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m11.684s
+user	1m8.426s
+sys	0m11.958s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using Rosenbrock23 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m14.561s
+user	1m11.070s
+sys	0m12.551s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m18.230s
+user	2m14.653s
+sys	0m11.753s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m42.736s
+user	1m40.481s
+sys	0m11.127s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	2m49.325s
+user	2m45.947s
+sys	0m12.551s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas5P with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m7.283s
+user	2m4.222s
+sys	0m12.377s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas5P with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m47.431s
+user	1m45.575s
+sys	0m11.702s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rodas5P with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	2m51.211s
+user	2m47.813s
+sys	0m12.555s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m32.584s
+user	2m30.012s
+sys	0m12.284s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m42.138s
+user	1m39.133s
+sys	0m12.232s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using Rosenbrock23 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	2m49.853s
+user	2m47.216s
+sys	0m11.506s
 Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,10 +447,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	35m13.163s
-user	424m50.157s
-sys	970m2.858s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	34m24.209s
+user	417m11.965s
+sys	974m3.296s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -28,10 +463,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	32m57.029s
-user	32m33.619s
-sys	0m23.186s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	32m37.959s
+user	32m14.723s
+sys	0m27.584s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -44,10 +479,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas4 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	52m32.803s
-user	52m12.437s
-sys	0m24.680s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	52m4.329s
+user	51m48.437s
+sys	0m21.695s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -60,10 +495,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
 -----     Benchmark finished.     -----
 
-real	70m20.862s
-user	69m28.868s
-sys	0m46.736s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	71m23.376s
+user	70m38.760s
+sys	0m46.225s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -76,10 +511,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas5P with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	23m45.280s
-user	254m56.245s
-sys	593m34.625s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	22m58.438s
+user	249m52.405s
+sys	590m32.918s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -92,10 +527,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas5P with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	32m15.112s
-user	32m0.089s
-sys	0m24.351s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	32m10.297s
+user	31m57.895s
+sys	0m20.911s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -108,10 +543,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas5P with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	30m8.500s
-user	29m53.565s
-sys	0m22.875s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	28m43.302s
+user	28m30.557s
+sys	0m21.693s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -124,10 +559,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rodas5P with jac=true,  with sparse=true, and with linsolver=KLU.     -----
 -----     Benchmark finished.     -----
 
-real	64m54.568s
-user	63m54.691s
-sys	0m41.967s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	67m2.217s
+user	66m22.246s
+sys	0m43.832s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -140,10 +575,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	138m27.958s
-user	1867m27.936s
-sys	4462m2.686s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	136m46.660s
+user	1857m58.998s
+sys	4419m37.986s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -156,10 +591,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	42m3.978s
-user	41m22.704s
-sys	0m22.431s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	42m39.889s
+user	41m23.829s
+sys	0m30.886s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -172,10 +607,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rosenbrock23 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	108m13.105s
-user	107m32.618s
-sys	0m28.666s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	110m35.870s
+user	109m39.742s
+sys	0m28.816s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -188,6 +623,199 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using Rosenbrock23 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
 -----     Benchmark finished.     -----
 
-real	99m56.493s
-user	98m17.473s
-sys	0m51.614s
+real	97m17.666s
+user	95m53.790s
+sys	0m51.849s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	24m3.534s
+user	109m11.491s
+sys	77m2.899s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	18m6.588s
+user	17m43.140s
+sys	0m32.702s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas4 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	54m50.953s
+user	54m25.939s
+sys	0m32.222s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	495m18.209s
+user	494m11.877s
+sys	0m26.103s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas5P with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	21m49.826s
+user	79m13.649s
+sys	50m17.362s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas5P with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	19m1.251s
+user	18m37.715s
+sys	0m32.019s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas5P with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	25m32.032s
+user	25m9.897s
+sys	0m30.749s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rodas5P with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	499m10.664s
+user	498m4.219s
+sys	0m33.625s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	42m49.411s
+user	277m0.667s
+sys	210m41.972s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rosenbrock23 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	16m44.473s
+user	16m20.529s
+sys	0m32.809s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rosenbrock23 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	37m50.104s
+user	37m25.207s
+sys	0m32.453s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using Rosenbrock23 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	543m36.421s
+user	542m4.215s
+sys	0m38.503s

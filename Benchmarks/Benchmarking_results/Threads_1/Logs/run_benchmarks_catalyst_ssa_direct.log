@@ -1,5 +1,5 @@
 Starts benchmark runs on the multistate model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,11 +12,11 @@ Parsing groups...done
 -----     Beginning benchmarks for multistate using Direct     -----
 -----     Benchmark finished.     -----
 
-real	4m8.729s
-user	4m1.881s
-sys	0m12.989s
+real	5m2.168s
+user	3m55.157s
+sys	0m11.979s
 Starts benchmark runs on the multisite2 model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -29,11 +29,11 @@ Parsing groups...done
 -----     Beginning benchmarks for multisite2 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	294m14.561s
-user	294m6.742s
-sys	0m11.391s
+real	333m28.498s
+user	332m49.666s
+sys	0m11.171s
 Starts benchmark runs on the egfr_net model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -46,12 +46,12 @@ Parsing groups...done
 -----     Beginning benchmarks for egfr_net using Direct     -----
 -----     Benchmark finished.     -----
 
-real	69m6.903s
-user	68m53.572s
-sys	0m12.015s
+real	73m57.516s
+user	72m24.723s
+sys	0m12.763s
 Starts benchmark runs on the BCR model.
 Starts benchmark runs on the fceri_gamma2 model.
-  Activating project at `~/Projects/CatalystHpcBenchmarking/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -64,6 +64,6 @@ Parsing groups...done
 -----     Beginning benchmarks for fceri_gamma2 using Direct     -----
 -----     Benchmark finished.     -----
 
-real	22m0.906s
-user	21m44.719s
-sys	0m12.758s
+real	23m40.546s
+user	22m35.035s
+sys	0m13.441s

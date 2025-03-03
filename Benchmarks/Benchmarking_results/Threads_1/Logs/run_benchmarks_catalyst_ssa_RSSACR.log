@@ -1,5 +1,133 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	6m4.414s
+user	4m6.224s
+sys	0m11.967s
+Starts benchmark runs on the multisite2 model.
+
+signal (11): Segmentation fault
+in expression starting at /home/gridsan/tloman/Projects3/Benchmarks/Catalyst/catalyst_make_benchmark.jl:59
+length at ./array.jl:215 [inlined]
+iterate at ./array.jl:898 [inlined]
+iterate at ./array.jl:898 [inlined]
+evalrxrate at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/massaction_rates.jl:10 [inlined]
+calculate_jump_rate at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/aggregators/ssajump.jl:137 [inlined]
+rejectrx at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/aggregators/ssajump.jl:248 [inlined]
+generate_jumps! at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/aggregators/rssacr.jl:149
+AbstractSSAJumpAggregator at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/aggregators/ssajump.jl:47 [inlined]
+step! at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/SSA_stepper.jl:262
+solve! at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/SSA_stepper.jl:109
+#__solve#217 at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/SSA_stepper.jl:102
+__solve at /home/gridsan/tloman/.julia/packages/JumpProcesses/8AMkl/src/SSA_stepper.jl:98 [inlined]
+#solve#33 at /home/gridsan/tloman/.julia/packages/DiffEqBase/JH4gt/src/solve.jl:965 [inlined]
+solve at /home/gridsan/tloman/.julia/packages/DiffEqBase/JH4gt/src/solve.jl:964 [inlined]
+##core#355 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:489
+##sample#356 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:495
+unknown function (ip: 0x7f0b7aaedd0d)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+#_run#48 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:99
+_run##kw at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:92
+unknown function (ip: 0x7f0bbf8d42f8)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+jl_apply at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/julia.h:1843 [inlined]
+jl_f__call_latest at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/builtins.c:774
+#invokelatest#2 at ./essentials.jl:731 [inlined]
+invokelatest##kw at ./essentials.jl:726 [inlined]
+#run_result#45 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:34 [inlined]
+run_result##kw at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:34 [inlined]
+#run#49 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:117
+run##kw at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:117 [inlined]
+run##kw at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:117 [inlined]
+#warmup#54 at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:169 [inlined]
+warmup at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:168
+unknown function (ip: 0x7f0bbf8d3b32)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+macro expansion at /home/gridsan/tloman/.julia/packages/BenchmarkTools/0owsb/src/execution.jl:393 [inlined]
+#7 at /home/gridsan/tloman/Projects3/Benchmarks/Catalyst/catalyst_make_benchmark.jl:129
+iterate at ./generator.jl:47 [inlined]
+collect_to! at ./array.jl:845
+collect_to_with_first! at ./array.jl:823
+unknown function (ip: 0x7f0b7aae8260)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+_collect at ./array.jl:817
+collect_similar at ./array.jl:716
+unknown function (ip: 0x7f0bbf8d0731)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+map at ./abstractarray.jl:2933
+unknown function (ip: 0x7f0bbf8ca686)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+jl_apply at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/julia.h:1843 [inlined]
+do_call at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/interpreter.c:126
+eval_value at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/interpreter.c:215
+eval_stmt_value at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/interpreter.c:166 [inlined]
+eval_body at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/interpreter.c:612
+jl_interpret_toplevel_thunk at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/interpreter.c:750
+jl_toplevel_eval_flex at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/toplevel.c:906
+jl_toplevel_eval_flex at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/toplevel.c:850
+ijl_toplevel_eval_in at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/toplevel.c:965
+eval at ./boot.jl:368 [inlined]
+include_string at ./loading.jl:1428
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+_include at ./loading.jl:1488
+include at ./Base.jl:419
+jfptr_include_38905.clone_1 at /home/gridsan/tloman/julia-1.8.5/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+exec_options at ./client.jl:303
+_start at ./client.jl:522
+jfptr__start_38041.clone_1 at /home/gridsan/tloman/julia-1.8.5/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2377 [inlined]
+ijl_apply_generic at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/gf.c:2559
+jl_apply at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/julia.h:1843 [inlined]
+true_main at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/jlapi.c:575
+jl_repl_entrypoint at /cache/build/default-amdci4-2/julialang/julia-release-1-dot-8/src/jlapi.c:719
+main at julia (unknown line)
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x401098)
+Allocations: 164166084 (Pool: 164133291; Big: 32793); GC: 120
+/var/spool/slurmd/job22349828/slurm_script: line 16: 57101 Segmentation fault      julia --threads $JULIA_THREADS_TO_USE catalyst_make_benchmark.jl multisite2 RSSACR 1 5 9
+
+real	6m59.417s
+user	6m55.029s
+sys	0m10.538s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	5m26.520s
+user	5m25.435s
+sys	0m10.488s
 Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects2/Benchmarks/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,6 +140,23 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using RSSACR     -----
 -----     Benchmark finished.     -----
 
-real	219m54.374s
-user	218m34.590s
-sys	0m12.671s
+real	228m33.253s
+user	227m50.010s
+sys	0m11.837s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using RSSACR     -----
+-----     Benchmark finished.     -----
+
+real	5m53.375s
+user	4m46.582s
+sys	0m13.685s

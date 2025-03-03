@@ -1,0 +1,51 @@
+Starts benchmark runs on the BCR model.
+Threads in use: 1
+
+real	1072m49.973s
+user	1273m14.333s
+sys	291m51.994s
+
+[CVODE ERROR]  CVode
+  At t = 8.45356, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.45356, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.45356, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.45356, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.45356, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.63839, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.63839, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.63839, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.63839, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.63839, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 8.13771, mxstep steps taken before reaching tout.
+
+slurmstepd-d-19-13-2: error: *** JOB 22349808 ON d-19-13-2 CANCELLED AT 2023-04-16T23:48:09 DUE TO TIME LIMIT ***

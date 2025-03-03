@@ -1,6 +1,24 @@
-Starts benchmark runs on the BCR model.
+Starts benchmark runs on the multistate model.
 Threads in use: 1
 
-real	183m40.272s
-user	183m28.739s
-sys	0m9.692s
+real	0m11.729s
+user	0m2.012s
+sys	0m7.151s
+Starts benchmark runs on the multisite2 model.
+Threads in use: 1
+
+real	0m3.130s
+user	0m4.344s
+sys	0m7.375s
+Starts benchmark runs on the egfr_net model.
+Threads in use: 1
+
+real	3m38.346s
+user	3m39.290s
+sys	0m8.676s
+Starts benchmark runs on the fceri_gamma2 model.
+Threads in use: 1
+
+real	909m11.847s
+user	908m12.030s
+sys	0m21.100s

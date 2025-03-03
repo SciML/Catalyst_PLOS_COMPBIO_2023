@@ -1,5 +1,296 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using TRBDF2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m13.155s
+user	1m9.162s
+sys	0m12.412s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using TRBDF2 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m9.776s
+user	1m8.239s
+sys	0m11.033s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using TRBDF2 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m13.809s
+user	1m11.456s
+sys	0m11.098s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using KenCarp4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m12.593s
+user	1m10.945s
+sys	0m10.201s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using KenCarp4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m13.220s
+user	1m12.238s
+sys	0m9.591s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using KenCarp4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m16.643s
+user	1m14.256s
+sys	0m11.096s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using TRBDF2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m39.652s
+user	1m37.761s
+sys	0m10.901s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using TRBDF2 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m11.636s
+user	1m10.443s
+sys	0m10.136s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using TRBDF2 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m17.450s
+user	1m14.953s
+sys	0m11.845s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using KenCarp4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	1m36.702s
+user	1m35.156s
+sys	0m9.741s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using KenCarp4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m11.356s
+user	1m10.292s
+sys	0m9.843s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using KenCarp4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	1m14.266s
+user	1m11.928s
+sys	0m11.235s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using TRBDF2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m5.621s
+user	2m3.286s
+sys	0m11.163s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using TRBDF2 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m43.785s
+user	1m41.705s
+sys	0m10.940s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using TRBDF2 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	2m41.183s
+user	2m38.245s
+sys	0m12.114s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using KenCarp4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	2m6.389s
+user	2m4.263s
+sys	0m11.181s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using KenCarp4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	1m42.698s
+user	1m40.882s
+sys	0m11.797s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using KenCarp4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	2m42.590s
+user	2m40.222s
+sys	0m11.327s
 Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,10 +303,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using TRBDF2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	9m27.580s
-user	84m53.440s
-sys	92m7.452s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	9m18.268s
+user	83m28.993s
+sys	93m49.408s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -28,10 +319,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using TRBDF2 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	39m11.991s
-user	38m59.387s
-sys	0m21.220s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	39m49.676s
+user	39m23.758s
+sys	0m23.484s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -44,10 +335,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using TRBDF2 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	8m54.758s
-user	8m43.491s
-sys	0m21.038s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	9m18.679s
+user	8m48.245s
+sys	0m20.285s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -60,10 +351,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using TRBDF2 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
 -----     Benchmark finished.     -----
 
-real	65m55.840s
-user	65m19.801s
-sys	0m37.919s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	65m36.439s
+user	64m54.344s
+sys	0m38.541s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -76,10 +367,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using KenCarp4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
 -----     Benchmark finished.     -----
 
-real	8m8.607s
-user	35m37.256s
-sys	62m52.946s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	8m17.831s
+user	36m33.837s
+sys	64m58.906s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -92,10 +383,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using KenCarp4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	45m31.320s
-user	45m21.101s
-sys	0m18.870s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	45m2.556s
+user	44m50.345s
+sys	0m20.270s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -108,10 +399,10 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using KenCarp4 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
 -----     Benchmark finished.     -----
 
-real	9m24.370s
-user	9m12.414s
-sys	0m20.654s
-  Activating project at `~/Projects/Benchmarks/Catalyst`
+real	9m25.432s
+user	9m13.970s
+sys	0m20.554s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -124,6 +415,135 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using KenCarp4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
 -----     Benchmark finished.     -----
 
-real	62m34.730s
-user	62m3.349s
-sys	0m38.196s
+real	63m38.016s
+user	63m6.658s
+sys	0m37.129s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using TRBDF2 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	18m2.951s
+user	95m4.891s
+sys	69m34.458s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using TRBDF2 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	17m30.977s
+user	17m9.191s
+sys	0m30.828s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using TRBDF2 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	15m1.285s
+user	14m39.291s
+sys	0m30.003s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using TRBDF2 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	492m43.966s
+user	491m41.845s
+sys	0m26.735s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using KenCarp4 with jac=false,  with sparse=false, and with linsolver=NoLinSolver.     -----
+-----     Benchmark finished.     -----
+
+real	16m45.673s
+user	32m14.345s
+sys	13m47.518s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using KenCarp4 with jac=false,  with sparse=false, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	19m55.752s
+user	19m33.722s
+sys	0m30.405s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using KenCarp4 with jac=false,  with sparse=true, and with linsolver=GMRES.     -----
+-----     Benchmark finished.     -----
+
+real	15m6.771s
+user	14m45.458s
+sys	0m29.080s
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using KenCarp4 with jac=true,  with sparse=true, and with linsolver=KLU.     -----
+-----     Benchmark finished.     -----
+
+real	470m14.664s
+user	469m4.840s
+sys	0m37.095s

@@ -1,5 +1,56 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	3m49.495s
+user	3m48.021s
+sys	0m9.863s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	80m36.998s
+user	80m5.247s
+sys	0m10.384s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	10m29.175s
+user	9m55.505s
+sys	0m12.269s
 Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects2/Benchmarks/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,6 +63,23 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using RSSA     -----
 -----     Benchmark finished.     -----
 
-real	2781m27.281s
-user	2777m58.318s
-sys	0m18.441s
+real	2860m54.562s
+user	2858m11.102s
+sys	0m16.657s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using RSSA     -----
+-----     Benchmark finished.     -----
+
+real	87m31.510s
+user	86m22.703s
+sys	0m14.103s

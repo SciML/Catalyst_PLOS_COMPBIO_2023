@@ -1,11 +1,55 @@
+Starts benchmark runs on the multistate model.
+Threads in use: 1
+
+real	0m6.953s
+user	0m3.605s
+sys	0m7.668s
+Threads in use: 1
+
+real	0m2.280s
+user	0m3.393s
+sys	0m8.241s
+Starts benchmark runs on the multisite2 model.
+Threads in use: 1
+
+real	0m4.032s
+user	0m5.429s
+sys	0m8.712s
+Threads in use: 1
+
+real	0m3.946s
+user	0m5.154s
+sys	0m7.795s
+Starts benchmark runs on the egfr_net model.
+Threads in use: 1
+
+real	0m57.038s
+user	0m58.125s
+sys	0m7.694s
+Threads in use: 1
+
+real	0m53.602s
+user	0m54.332s
+sys	0m7.695s
 Starts benchmark runs on the BCR model.
 Threads in use: 1
 
-real	31m23.564s
-user	31m21.567s
-sys	0m8.170s
+real	28m17.217s
+user	28m16.902s
+sys	0m8.934s
 Threads in use: 1
 
-real	178m39.653s
-user	178m36.514s
-sys	0m8.705s
+real	166m53.035s
+user	166m50.224s
+sys	0m8.148s
+Starts benchmark runs on the fceri_gamma2 model.
+Threads in use: 1
+
+real	136m21.313s
+user	136m16.219s
+sys	0m10.297s
+Threads in use: 1
+
+real	18m1.125s
+user	17m57.907s
+sys	0m10.284s

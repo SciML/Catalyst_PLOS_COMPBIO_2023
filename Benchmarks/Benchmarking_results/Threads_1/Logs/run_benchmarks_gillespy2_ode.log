@@ -1,1 +1,35 @@
-Starts benchmark runs on the BCR model.
+Starts benchmark runs on the multistate model.
+Threads in use: 1
+
+real	0m11.468s
+user	0m3.967s
+sys	0m7.358s
+Threads in use: 1
+
+real	4m7.526s
+user	3m28.381s
+sys	0m44.716s
+Starts benchmark runs on the multisite2 model.
+Threads in use: 1
+
+real	0m43.616s
+user	0m45.018s
+sys	0m7.546s
+Threads in use: 1
+
+real	4m48.393s
+user	4m19.078s
+sys	0m39.353s
+Starts benchmark runs on the egfr_net model.
+Threads in use: 1
+
+real	13m11.225s
+user	33m21.752s
+sys	49m54.183s
+Threads in use: 1
+
+real	143m19.989s
+user	142m33.450s
+sys	0m54.021s
+Starts benchmark runs on the fceri_gamma2 model.
+slurmstepd-d-19-12-1: error: *** JOB 22349805 ON d-19-12-1 CANCELLED AT 2023-04-16T20:36:00 DUE TO TIME LIMIT ***

@@ -1,5 +1,56 @@
+Starts benchmark runs on the multistate model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multistate using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	5m1.031s
+user	3m44.672s
+sys	0m12.155s
+Starts benchmark runs on the multisite2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for multisite2 using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	93m53.975s
+user	93m48.374s
+sys	0m11.410s
+Starts benchmark runs on the egfr_net model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for egfr_net using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	15m55.890s
+user	15m48.148s
+sys	0m11.531s
 Starts benchmark runs on the BCR model.
-  Activating project at `~/Projects2/Benchmarks/Catalyst`
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
 Threads in use: 1
 Parsing parameters...done
 Creating parameters...done
@@ -12,6 +63,23 @@ Parsing groups...done
 -----     Beginning benchmarks for BCR using SortingDirect     -----
 -----     Benchmark finished.     -----
 
-real	5392m40.661s
-user	5387m9.766s
-sys	0m22.098s
+real	5334m10.939s
+user	5331m14.463s
+sys	0m19.908s
+Starts benchmark runs on the fceri_gamma2 model.
+  Activating project at `~/Projects3/Benchmarks/Catalyst`
+Threads in use: 1
+Parsing parameters...done
+Creating parameters...done
+Parsing species...done
+Creating species...done
+Creating species and parameters for evaluating expressions...done
+Parsing and adding reactions...done
+Parsing groups...done
+
+-----     Beginning benchmarks for fceri_gamma2 using SortingDirect     -----
+-----     Benchmark finished.     -----
+
+real	12m58.708s
+user	12m35.650s
+sys	0m14.533s

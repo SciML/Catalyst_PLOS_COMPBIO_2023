@@ -1,3 +1,51 @@
+Starts benchmark runs on the multistate model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	0m15.565s
+user	0m23.803s
+sys	0m1.649s
+Starts benchmark runs on the multisite2 model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	0m20.787s
+user	0m22.045s
+sys	0m1.412s
+Starts benchmark runs on the egfr_net model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	0m47.291s
+user	1m2.297s
+sys	0m1.570s
 Starts benchmark runs on the BCR model.
 
                             < M A T L A B (R) >
@@ -11,6 +59,22 @@ For product information, visit www.mathworks.com.
  
 Threads in use: 1
 
-real	11m54.341s
-user	11m49.118s
-sys	0m2.874s
+real	16m3.720s
+user	16m6.853s
+sys	0m3.011s
+Starts benchmark runs on the fceri_gamma2 model.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Threads in use: 1
+
+real	45m39.548s
+user	45m20.972s
+sys	0m25.486s

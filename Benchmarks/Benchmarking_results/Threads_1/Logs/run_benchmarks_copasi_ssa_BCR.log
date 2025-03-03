@@ -1,0 +1,10 @@
+Starts benchmark runs on the BCR model.
+ERROR:root:Error while running the simulation: >EXCEPTION 2023-04-17T13:20:18<
+  CTrajectoryMethod (12): Internal step limit exceeded.
+ERROR:root:Error while running the simulation: >EXCEPTION 2023-04-18T03:44:11<
+  CTrajectoryMethod (12): Internal step limit exceeded.
+Threads in use: 1
+
+real	3146m7.153s
+user	3144m29.565s
+sys	0m10.113s

@@ -1,0 +1,31 @@
+Starts benchmark runs on the BCR model.
+Threads in use: 1
+
+real	3370m38.791s
+user	3890m7.528s
+sys	901m34.921s
+
+[CVODE ERROR]  CVode
+  At t = 4.37532, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 4.37532, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 4.37532, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 4.37532, mxstep steps taken before reaching tout.
+
+
+[CVODE ERROR]  CVode
+  At t = 4.37532, mxstep steps taken before reaching tout.
+
+Threads in use: 1
+
+real	2035m49.304s
+user	2033m59.936s
+sys	1m7.552s

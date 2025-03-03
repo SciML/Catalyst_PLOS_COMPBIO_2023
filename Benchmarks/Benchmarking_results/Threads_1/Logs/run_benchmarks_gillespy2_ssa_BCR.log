@@ -1,0 +1,2 @@
+Starts benchmark runs on the BCR model.
+slurmstepd-d-19-15-1: error: *** JOB 22349816 ON d-19-15-1 CANCELLED AT 2023-04-17T07:12:47 DUE TO TIME LIMIT ***

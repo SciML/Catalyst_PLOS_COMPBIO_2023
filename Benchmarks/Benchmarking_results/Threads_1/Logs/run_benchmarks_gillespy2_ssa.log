@@ -1,1 +1,86 @@
-Starts benchmark runs on the BCR model.
+Starts benchmark runs on the multistate model.
+Threads in use: 1
+
+real	17m55.375s
+user	17m19.507s
+sys	0m31.892s
+Starts benchmark runs on the multisite2 model.
+Threads in use: 1
+
+real	207m35.037s
+user	207m13.869s
+sys	0m28.489s
+Starts benchmark runs on the egfr_net model.
+Threads in use: 1
+
+real	260m13.569s
+user	259m22.594s
+sys	0m50.389s
+Starts benchmark runs on the fceri_gamma2 model.
+Threads in use: 1
+Traceback (most recent call last):
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/core/model.py", line 1290, in run
+    solver = solver(**sol_kwargs)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_solver.py", line 96, in __init__
+    self._set_model()
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_solver.py", line 339, in _set_model
+    self._build(self.model, self.target, self.variable, False)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_solver.py", line 131, in _build
+    return self.build_engine.build_simulation(simulation_name)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/build/build_engine.py", line 174, in build_simulation
+    self.make.build_simulation(simulation_name, template_dir=str(self.template_dir), **definitions)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/build/make.py", line 77, in build_simulation
+    self.__execute(simulation_name, **kwargs)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/build/make.py", line 109, in __execute
+    raise gillespyError.BuildError(f"Error encountered during execution of Makefile target: '{target}'.\n"
+gillespy2.core.gillespyError.BuildError: Error encountered during execution of Makefile target: 'ssa'.
+Return code: 2- stdout: scons: Entering directory `/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq'
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+g++ -o gillespy2_obj/template/template.o -c -std=c++14 -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base -Igillespy2_template -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/Sundials/include -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/Tau gillespy2_template/template.cpp
+scons: building terminated because of errors.
+
+- stderr: virtual memory exhausted: Cannot allocate memory
+scons: *** [gillespy2_obj/template/template.o] Error 1
+
+- make_cmd: /home/gridsan/tloman/.local/bin/scons -C/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq -f/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/build/SConstruct CBASE_DIR=/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base OBJ_DIR=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/gillespy2_obj TEMPLATE_DIR=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/gillespy2_template SOLVER=ssa OUTPUT_FILE=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/GillesPy2_Simulation.exe
+- os.listdir(/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/template): ['template_defaults.h', 'template_opts.h', 'template_definitions.h', 'template.cpp', 'template.h', 'template_params.h']
+- os.path.exists(/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/GillesPy2_Simulation.exe): False
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gridsan/tloman/Projects3/Benchmarks/GillesPy2/gillespy2_make_benchmarks.py", line 67, in <module>
+    benchmarks[i] = make_Gillespie_benchmark(model,n,lengs[i])
+  File "/home/gridsan/tloman/Projects3/Benchmarks/GillesPy2/gillespy2_make_benchmarks.py", line 44, in make_Gillespie_benchmark
+    durations = timeit.Timer(benchmark_func).repeat(repeat=n, number=1)
+  File "/state/partition1/llgrid/pkg/anaconda/anaconda3-2023a/lib/python3.9/timeit.py", line 205, in repeat
+    t = self.timeit(number)
+  File "/state/partition1/llgrid/pkg/anaconda/anaconda3-2023a/lib/python3.9/timeit.py", line 177, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "/home/gridsan/tloman/Projects3/Benchmarks/GillesPy2/gillespy2_make_benchmarks.py", line 40, in benchmark_func
+    model.run(solver=SSACSolver,t=leng,increment=leng/50)
+  File "/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/core/model.py", line 1292, in run
+    raise SimulationError(f"{solver} is not a valid solver.  Reason Given: {err}.") from err
+gillespy2.core.gillespyError.SimulationError: <class 'gillespy2.solvers.cpp.ssa_c_solver.SSACSolver'> is not a valid solver.  Reason Given: Error encountered during execution of Makefile target: 'ssa'.
+Return code: 2- stdout: scons: Entering directory `/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq'
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+g++ -o gillespy2_obj/template/template.o -c -std=c++14 -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base -Igillespy2_template -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/Sundials/include -I/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/Tau gillespy2_template/template.cpp
+scons: building terminated because of errors.
+
+- stderr: virtual memory exhausted: Cannot allocate memory
+scons: *** [gillespy2_obj/template/template.o] Error 1
+
+- make_cmd: /home/gridsan/tloman/.local/bin/scons -C/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq -f/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/build/SConstruct CBASE_DIR=/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base OBJ_DIR=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/gillespy2_obj TEMPLATE_DIR=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/gillespy2_template SOLVER=ssa OUTPUT_FILE=/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/GillesPy2_Simulation.exe
+- os.listdir(/home/gridsan/tloman/.local/lib/python3.9/site-packages/gillespy2/solvers/cpp/c_base/template): ['template_defaults.h', 'template_opts.h', 'template_definitions.h', 'template.cpp', 'template.h', 'template_params.h']
+- os.path.exists(/state/partition1/slurm_tmp/22349807.4294967291.0/gillespy2_build_j3d_nujq/GillesPy2_Simulation.exe): False
+.
+
+real	11m17.070s
+user	9m34.501s
+sys	1m45.615s
